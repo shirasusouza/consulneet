@@ -1,0 +1,52 @@
+
+body,ul,li,p
+{
+    margin: 0 auto;
+    background-color: rgb(223, 196, 255);
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    font-size: 1,2rem;
+    font-family: 'Franklin Gothic Medium';
+}
+a
+{
+    color: rgb(228, 250, 253);
+    text-decoration: none;
+}
+.topo
+{
+    background-color: rgb(207, 139, 224);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-items: center;
+    padding: 10px;
+}
+.menu ul li a 
+{
+    background-color: rgb(207, 139, 224);
+    display: flex;
+}
+.menu ul
+{
+    display: flex;
+}
+.menu li
+{
+    margin-left: 0px;
+}
+.menu li a
+{
+
+    display: block;
+    padding: 10px;
+}
+.secao
+{
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 30px;
+    padding: 0 auto;
+
+}
