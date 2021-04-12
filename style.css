@@ -2,7 +2,7 @@
 body,ul,li,p
 {
     margin: 0 auto;
-    background-color: rgb(223, 196, 255);
+    background-color: rgb(84, 0, 187);
     text-decoration: none;
     list-style: none;
     padding: 0px;
@@ -11,12 +11,12 @@ body,ul,li,p
 }
 a
 {
-    color: rgb(228, 250, 253);
+    color: rgb(0, 39, 44);
     text-decoration: none;
 }
 .topo
 {
-    background-color: rgb(207, 139, 224);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -25,7 +25,7 @@ a
 }
 .menu ul li a 
 {
-    background-color: rgb(207, 139, 224);
+    background-color: rgb(255, 255, 255);
     display: flex;
 }
 .menu ul
