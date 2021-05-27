@@ -37,12 +37,18 @@ body
 
 /* acaba aqui daqui em diante são informações aleatorias que peguei pra não deixar vazio
 */
-.top1 iframe
+.top1 h1
 {
-    align-items: center;
+    text-align: center;
+    justify-items: center;
     flex-wrap: wrap;
-    display: block;
     justify-content: space-between;
-    max-width: 50%;
-    max-height: 50%;
+    background-color: rgb(201, 250, 247);
+    margin: 0 auto;
+}
+iframe
+{
+    justify-items: center;
+    max-width: 40%;
+    max-height: 40%;
 }
