@@ -8,54 +8,41 @@ font-family: arial;
 }
 body
 {
-    background-color: lightcyan;
+    background-color: rgb(220, 252, 244);
 }
 
-a
-{
-    text-decoration: none;
-}
 /*parte de cima somente logo e menu */
 .topo
 {
-    background-color: rgb(226, 240, 255);
+    background-color: rgb(255, 250, 250);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
+
 }
 .menu
 {
     display: flex;
 }
-.menu li
-{
-    margin-left: 5px;
-}
 .menu li,a
-{
+{ 
     color: rgb(2, 0, 31);
     display: block;
-    padding: 10px;
+    padding: 05px;
+    
 }
-.menu:hover li,a
-{
-    text-decoration: none;
-    background-color: rgb(242, 227, 255);
-    margin: none;
-    padding: 10px;
-    color: rgb(23, 0, 49);
-}
+
 
 /* acaba aqui daqui em diante são informações aleatorias que peguei pra não deixar vazio
 */
-#top1 iframe
+.top1 iframe
 {
-    padding: 0 auto;
+    align-items: center;
     flex-wrap: wrap;
     display: block;
     justify-content: space-between;
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 50%;
+    max-height: 50%;
 }
