@@ -1,3 +1,4 @@
+/*estilos gerais*/
 body,ul,li,p
 {
 text-decoration: none;
@@ -9,6 +10,23 @@ font-family: arial;
 body
 {
     background-color: rgb(220, 252, 244);
+}
+p
+{
+    font-size: 1.2rem;
+    font-family: Franklin;
+    margin: 20px;
+    text-justify: auto;
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+}
+iframe
+{
+max-width: 100%;
+display: block;
 }
 
 /*parte de cima somente logo e menu */
@@ -35,20 +53,29 @@ body
 }
 
 
-/* acaba aqui daqui em diante são informações aleatorias que peguei pra não deixar vazio
+/*
+ acaba aqui daqui em diante são informações aleatorias que peguei pra não deixar vazio
 */
-.top1 h1
+.top1
 {
-    text-align: center;
-    justify-items: center;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: rgb(201, 250, 247);
+    max-width: 800px;
     margin: 0 auto;
 }
-iframe
+.top1 > div
 {
-    justify-items: center;
-    max-width: 40%;
-    max-height: 40%;
+    flex: 1 1 200px;
+    margin: 10px;
+}
+/*pag. login */
+.cad
+{
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 10px;
+    border-style: solid;
+    width: 65px;
+    border-radius: 15px;
+    font-size: large;
 }
