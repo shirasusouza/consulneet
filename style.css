@@ -40,6 +40,41 @@ display: block;
     padding: 10px;
 
 }
+.foto
+{
+    border-radius: 15px;
+}
+.chat
+{
+    align-items: center;
+    justify-content: center;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(255, 250, 250);
+}
+.menu a{text-decoration: none;}
+.menu a:hover
+{
+    color: snow;
+    border-radius: 15px;
+    background-color: skyblue;
+}
+.botao01
+{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 250, 250);
+    margin-right: 1250px;
+}
+.botao01:hover
+{
+    background-color: skyblue;
+    color: snow;
+}
 .menu
 {
     display: flex;
@@ -69,7 +104,7 @@ display: block;
     margin: 10px;
 }
 /*pag. login */
-.cad
+/*.cad
 {
     background-color: blanchedalmond;
     margin: 20px;
@@ -78,4 +113,4 @@ display: block;
     width: 65px;
     border-radius: 15px;
     font-size: large;
-}
+}*/
